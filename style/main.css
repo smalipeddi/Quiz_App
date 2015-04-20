@@ -1,0 +1,165 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#main{
+	width :500px;
+	height:530px;
+	margin:50px auto;
+	/* border: 2px solid red; */
+
+}
+
+header{
+	width: 456px;
+	height:80px;
+	background: yellow;
+	text-align: center;
+	font-size: 2em;
+	font-family: roboto;
+	padding:20px;
+	/* border:2px solid red; */
+}
+h1{
+	float: left;
+	width: 400px;
+	height:50px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#start ,#over{
+
+	width: 400px;
+	height:50px;
+	text-align: center;
+	margin: 20px auto; 
+	padding: 20px;
+
+}
+
+span{
+	
+	width:100px;
+	height: 50px;
+	
+
+}
+#questions{
+	width: 456px;
+	height:100px;
+	background: blue;
+	text-align: left;
+	font-size: 1.5em;
+	font-family: roboto;
+	padding:20px;
+	/* border:2px solid red; */
+	color:white;
+	margin-top: 15px;
+}
+
+#answers{
+	display: inline-block;
+	background:cyan;
+	padding:20px 20px 0 20px;
+	/* border:2px solid red; */
+	width:456px;
+	height:210px;
+	/* margin-top:12px; */
+	margin: 0 auto;
+}
+
+#choice1,#choice2,#choice3,#choice4{
+ 	display: inline-block;
+ 	width:170px;
+ 	height:50px;
+ 	margin: 10px 20px;
+ 	background:white;
+ 	padding:20px;
+ 	color:black;
+ 	padding: 10px;
+
+ }
+
+ #scorecnt{
+ 	
+ 	background: purple;
+ 	text-align: center;
+ 	width:170px;
+ 	height:50px;
+ 	margin:5px;
+ 	color:white;
+ 	padding:10px;
+ 	margin-left: 160px;
+ 	
+ }
+.countdown{
+	font-size: 0.6em;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	padding-top:20px;
+}
+
+.correct{
+    display: inline-block;
+ 	width:170px;
+ 	height:50px;
+ 	margin:5px;
+ 	background:green;
+ 	padding:10px;
+}
+
+.wrong{
+	display: inline-block;
+ 	width:170px;
+ 	height:50px;
+ 	margin:5px;
+ 	background:red;
+ 	padding:10px;
+}
