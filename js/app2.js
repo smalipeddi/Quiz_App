@@ -27,6 +27,7 @@ $(document).ready(
           }}, 1000); */
         $("#start").click(
             function() {
+              $(this).hide();
               $("h2").remove();
                 $("#counters").show();
                 $("#question").show();
